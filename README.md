@@ -1,23 +1,12 @@
-Project Description:
+This To-Do app allows users to create, view, edit, mark as completed, and delete tasks. The main features include adding tasks with due dates, displaying all tasks in a table, editing tasks, filtering tasks by status (all, pending, completed), and deleting individual or all tasks. Notifications inform users of successful actions such as adding, editing, or deleting tasks.
 
-I have developed an engaging and functional website using HTML and CSS. The website includes the following sections:
+Technologies and Tools:
+HTML: Structure of the webpage.
 
-Header: Contains the logo, navigation bar, and a registration section.
+CSS: Styling and layout of the webpage.
 
-Why Us?: Presentation of the main features and benefits of the website.
+JavaScript: Functionality and interactivity of the app.
 
-Customers: Display of customer logos as references.
+localStorage: Storing tasks locally in the browser so that they persist even after reloading the page.
 
-Posts: Display of the latest blog posts.
-
-Footer: Contains links to social media and legal information.
-
-Technologies Used:
-
-HTML5: Structure of the website.
-
-CSS3: Styling and layout of the website.
-
-Font Awesome: Use of icons and symbols.
-
-Responsive Design: Ensuring adaptability to different screen sizes.
+This app provides a user-friendly interface and enables efficient task management directly in the browser.
