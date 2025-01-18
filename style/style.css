@@ -1,0 +1,137 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1000px;
+    margin: auto;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#manage-tasks {
+    margin-top: 50px;
+    margin-bottom: 5px;
+    padding: 25px 15px 20px 15px;
+    box-shadow: 0 26px 58px 0 rgba(0, 0, 0, .22), 0 5px 14px 0 rgba(0, 0, 0, .18);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.title {
+    text-align: center;
+    font-weight: 800;
+}
+#adding-task{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    margin: 10px 0;
+}
+#adding-task input{
+    font-size: 14px;
+    width: 100%;
+    padding: 8px;
+    border: 1.8px solid #ec8627;
+    border-radius: 5px;
+    outline: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.btn{
+    background-color: #ffa600;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 14px;
+    border: none;
+    font-weight: 550;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.btn:hover {
+    background-color: #ffc400;
+}
+
+#task-filtering{
+    display: flex;
+    position: relative;
+    margin-top: 30px;
+    gap: 15px;
+}
+.delete{
+    background-color: #ff6868;
+    position: absolute;
+    right: 0px;
+}
+.delete:hover{
+    background-color: #ff3131;
+
+}
+#tasks-chart table{
+    width: 100%;
+    
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    overflow: hidden;
+}
+#tasks-chart table, th, td{
+    border: 2px solid white;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+}
+#tasks-chart th {
+    background-color: grey;
+}
+#tasks-chart tr:nth-child(odd){
+    background-color: gainsboro;
+}
+.delete-btn{
+    background-color: #ff6868;
+}
+.delete-btn:hover{
+    background-color: #ff3131;
+}
+.do-btn{
+    background-color: #1dd31d;
+}
+.do-btn:hover{
+    background-color: #00ff00;
+}
+
+#alert-message {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.alert {
+    font-weight: 550;
+    width: 100%;
+    text-align: center;
+    border-radius: 4px;
+    padding: 5px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.alert-success {
+    background-color: #1dd31d;
+}
+.alert-error {
+    background-color: #ff3131;
+}
+
+#edit-btn {
+    display: none;
+}

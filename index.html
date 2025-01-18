@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to do app</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+<div id="manage-tasks">
+    <h2 class="title">To Do App | Yahya Noori</h2>
+    <div id="adding-task">
+        <input type="text" placeholder="add task ..." id="task-name">
+        <input type="date" id="task-date">
+        <button id="add-btn" class="btn">Add</button>
+        <button id="edit-btn" class="btn">Edit</button>
+    </div>
+    <div id="task-filtering">
+        <button class="btn all filter-todos" data-filter="all">All</button>
+        <button class="btn pending filter-todos" data-filter="pending">Pending</button>
+        <button class="btn completed filter-todos" data-filter="completed">Completed</button>
+        <button class="btn delete" id="delete-all">Delete All</button>
+    </div>
+</div>
+
+<div id="alert-message"></div>
+
+<div id="tasks-chart">
+    <table id="table">
+       <thead>
+         <tr>
+            <th>Task</th>
+            <th>Date</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+    </tbody>
+    </table>
+</div>
+
+
+
+    <script src="js/app.js"></script>
+</body>
+</html>
