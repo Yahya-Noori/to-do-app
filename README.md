@@ -1,51 +1,82 @@
-This To-Do app allows users to create, view, edit, mark as completed, and delete tasks. The main features include adding tasks with due dates, displaying all tasks in a table, editing tasks, filtering tasks by status (all, pending, completed), and deleting individual or all tasks. Notifications inform users of successful actions such as adding, editing, or deleting tasks.
+# To-Do App
 
-Below is a brief explanation of the HTML, CSS, and JavaScript used in this project.
+A simple, intuitive, and responsive To-Do App designed to help users manage their daily tasks efficiently. Built with HTML, CSS, and JavaScript, this app offers functionalities like adding, editing, deleting, and filtering tasks, along with local storage support to keep data persistent.
 
-HTML:
-The HTML section defines the structure of the web page.
+## Features
 
-It includes a <head> element with meta tags and links to the CSS file.
+- **Add New Tasks:** Quickly add tasks with an optional due date.
+- **Edit Tasks:** Modify existing tasks with ease.
+- **Mark as Completed:** Toggle task status between pending and completed.
+- **Filter Tasks:** View all tasks, only pending, or only completed ones.
+- **Delete Tasks:** Remove individual tasks or clear all tasks at once.
+- **Local Storage Support:** Your tasks are saved even after refreshing the page.
 
-The <body> contains sections for managing tasks, adding tasks, filtering tasks, and displaying tasks in a table format.
+## Demo
 
-It includes buttons for adding, editing, filtering, and deleting tasks, along with an alert message section for user notifications.
+![Book Bash Demo](demo-screenshot.png)
 
-CSS:
-The styles for the web page are defined in a CSS file linked to the HTML file through <link rel="stylesheet" href="style/style.css">.
 
-The body is styled with a specific font and centered layout.
+## Technologies Used
 
-Various elements like the task manager container, title, input fields, buttons, and alert messages are styled using CSS.
+- **HTML5:** Structuring the web app.
+- **CSS3:** Styling and layout design.
+- **JavaScript (Vanilla):** Implementing app logic and interactivity.
 
-Specific classes are used to style buttons, tables, and alert messages to make the design user-friendly and visually appealing.
+## How to Use
 
-JavaScript:
-JavaScript handles the functionality and interactivity of the app.
+1. **Clone the Repository:**  
+   ```bash
+   git clone https://github.com/your-username/todo-app.git
+   ```
 
-It includes event listeners for adding, editing, deleting, and filtering tasks.
+2. **Navigate to the Project Folder:**  
+   ```bash
+   cd todo-app
+   ```
 
-Tasks are stored in localStorage to persist data across page reloads.
+3. **Open `index.html` in Your Browser:**  
+   You can simply double-click the `index.html` file or open it via a live server extension in your code editor.
 
-Functions are defined to handle task addition, display, deletion, status toggling, editing, and filtering.
+## Folder Structure
 
-Alerts are shown to inform users about successful actions.
+```
+├── index.html
+├── style
+│   └── style.css
+└── js
+    └── app.js
+```
 
-Key Features:
-Add Tasks: Users can input a task and its due date, and add it to the list.
+## Key Functionalities
 
-Display Tasks: The added tasks are displayed in a table format.
+- **Task Management:** Adding, editing, and deleting tasks.
+- **Status Toggling:** Marking tasks as completed or pending.
+- **Filtering:** Sorting tasks based on their completion status.
+- **Responsive Design:** Works well on both desktop and mobile devices.
 
-Edit Tasks: Users can edit existing tasks.
+## Future Improvements
 
-Change Task Status: Users can toggle the status of a task between "pending" and "completed."
+- Adding categories or tags for tasks.
+- Implementing dark mode.
+- Adding due date reminders.
+- Syncing tasks across devices.
 
-Delete Single Task: Users can delete individual tasks.
+## Contributing
 
-Delete All Tasks: Users can delete all tasks at once.
+Contributions are welcome! Feel free to fork the repository, make changes, and submit a pull request.
 
-Filter Tasks: Users can filter tasks by status (all, pending, completed).
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-Notifications: Alerts are displayed for actions like adding, editing, or deleting tasks.
+## License
 
-This project provides a comprehensive task management solution with a clean and intuitive user interface, implemented using HTML, CSS, and JavaScript.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+**Author:** Yahya Noori  
+Feel free to reach out if you have any questions or suggestions!
+
