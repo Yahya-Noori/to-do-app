@@ -13,7 +13,7 @@ A simple, intuitive, and responsive To-Do App designed to help users manage thei
 
 ## Demo
 
-![Book Bash Demo](demo-screenshot.png)
+![Book Bash Demo](totoapp-screenshot.png)
 
 
 ## Technologies Used
